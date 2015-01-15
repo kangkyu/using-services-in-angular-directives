@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="app" ng-controller="AppCtrl as app">
+<html ng-app="app">
     <head>
         <title></title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -11,6 +11,6 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <alert>{{app.alertMessage}}</alert>
+        <alert ng-if="true" type="danger">Something Failed</alert>
     </body>
 </html>
