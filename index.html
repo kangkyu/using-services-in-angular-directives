@@ -11,7 +11,7 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <alert ng-if="app.alertService.showAlert" type="{{app.alertService.alertType}}">{{app.alertService.alertMessage}}</alert>
+        <app-alert></app-alert>
 
         <button name="button" ng-click="app.somethingFailed()">somethingFailed</button>
     </body>
