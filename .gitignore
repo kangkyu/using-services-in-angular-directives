@@ -4,5 +4,4 @@ bower_components/
 node_modules/
 .git/
 
-app-two.js
-index-two.js
+local_example/
